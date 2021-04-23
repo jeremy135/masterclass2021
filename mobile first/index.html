@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Mobile first</title>
-    <link rel="stylesheet" href="./style.css" />
-    <script type="text/javascript" src="./script.js"></script>
-  </head>
-  <body class="body">
-    <header class="header">
-      <div class="header__logo">
-        <img src="./assets/logo-white.svg" />
-      </div>
-      <div class="menu">
-        <div class="menu__toggle" onClick="toggle()">...</div>
-        <div class="menu__main-container">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Mobile first</title>
+  <link rel="stylesheet" href="./fonts.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <script type="text/javascript" src="./script.js"></script>
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="header__logo">
+      <img src="./assets/logo-white.svg" />
+    </div>
+    <div class="menu">
+      <div class="menu__toggle" onClick="toggle()">...</div>
+      <div class="menu__main-container">
         <div class="menu__close" onclick="toggle()"></div>
         <ul class="menu__main">
           <li class="menu__item"><a class="menu__link" href="ispsystem.com">Products</a></li>
@@ -26,10 +29,61 @@
           <li class="menu__item"><a class="menu__link" href="ispsystem.com">Support</a></li>
         </ul>
       </div>
+    </div>
+  </header>
+  <main>
+    <article class="content">
+      <div class="product">
+        <div class="product__img-container">
+          <img class="product__img" src="./assets/cards_servers.png" />
+        </div>
+        <div class="product__content">
+          <img class="product__logo" src="./assets/logo_dcimgr.svg" />
+          <div class="product__description">
+            A platform for global data center systems control and remote management
+          </div>
+          <button class="product__button">Read more</button>
+        </div>
       </div>
-    </header>
-    <h1>
-      This is a static template, there is no bundler or bundling involved!
-    </h1>
-  </body>
+      <div class="product">
+        <div class="product__img-container">
+          <img class="product__img" src="./assets/cards_vms.png" />
+        </div>
+        <div class="product__content">
+          <img class="product__logo" src="./assets/logo_vmmgr.svg" />
+          <div class="product__description">
+            A platform for creating fault-tolerant KVM and LXD-based virtualization environment
+          </div>
+          <button class="product__button">Read more</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__img-container">
+          <img class="product__img" src="./assets/cards_billmgr.png" />
+        </div>
+        <div class="product__content">
+          <img class="product__logo" src="./assets/logo_billmgr.svg" />
+          <div class="product__description">
+            A platform for selling hostinjg, domains, SSL certificates and providing IaaS solutions
+          </div>
+          <button class="product__button">Read more</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__img-container">
+          <img class="product__img" src="./assets/cards_ispmgr.png" />
+        </div>
+        <div class="product__content">
+          <img class="product__logo" src="./assets/logo_ispmgr.svg" />
+          <div class="product__description">
+            A web server control panel based on VPS or dedicated server, suitable for providing shared hosting services
+            to clients
+          </div>
+          <button class="product__button">Read more</button>
+        </div>
+      </div>
+    </article>
+  </main>
+</body>
+
 </html>
