@@ -1,0 +1,230 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url("./assets/fonts/ubuntu/ubuntu-light/normal/Ubuntu-Light-Cyrrillic-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-light/normal/Ubuntu-Light-Cyrrillic-Ext.woff") format("woff");
+  unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f, u+fe2e-fe2f;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url("./assets/fonts/ubuntu/ubuntu-light/normal/Ubuntu-Light-Cyrrillic.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-light/normal/Ubuntu-Light-Cyrrillic.woff") format("woff");
+  unicode-range: u+0400-045f, u+0490-0491, u+04b0-04b1, u+2116;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url("./assets/fonts/ubuntu/ubuntu-light/normal/Ubuntu-Light-Latin-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-light/normal/Ubuntu-Light-Latin-Ext.woff") format("woff");
+  unicode-range: u+0100-024f, u+0259, u+1e00-1eff, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url("./assets/fonts/ubuntu/ubuntu-light/normal/Ubuntu-Light-Latin.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-light/normal/Ubuntu-Light-Latin.woff") format("woff");
+  unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-style: italic;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url("./assets/fonts/ubuntu/ubuntu-light/italic/Ubuntu-Light-Italic-Cyrrillic-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-light/italic/Ubuntu-Light-Italic-Cyrrillic-Ext.woff") format("woff");
+  unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f, u+fe2e-fe2f;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-style: italic;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url("./assets/fonts/ubuntu/ubuntu-light/italic/Ubuntu-Light-Italic-Cyrrillic.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-light/italic/Ubuntu-Light-Italic-Cyrrillic.woff") format("woff");
+  unicode-range: u+0400-045f, u+0490-0491, u+04b0-04b1, u+2116;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-style: italic;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url("./assets/fonts/ubuntu/ubuntu-light/italic/Ubuntu-Light-Italic-Latin-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-light/italic/Ubuntu-Light-Italic-Latin-Ext.woff") format("woff");
+  unicode-range: u+0100-024f, u+0259, u+1e00-1eff, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-style: italic;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url("./assets/fonts/ubuntu/ubuntu-light/italic/Ubuntu-Light-Italic-Latin.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-light/italic/Ubuntu-Light-Italic-Latin.woff") format("woff");
+  unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Ubuntu Regular"), local("Ubuntu-Regular"), url("./assets/fonts/ubuntu/ubuntu-regular/normal/Ubuntu-Regular-Cyrillic-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-regular/normal/Ubuntu-Regular-Cyrillic-Ext.woff") format("woff");
+  unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f, u+fe2e-fe2f;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Ubuntu Regular"), local("Ubuntu-Regular"), url("./assets/fonts/ubuntu/ubuntu-regular/normal/Ubuntu-Regular-Cyrillic.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-regular/normal/Ubuntu-Regular-Cyrillic.woff") format("woff");
+  unicode-range: u+0400-045f, u+0490-0491, u+04b0-04b1, u+2116;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Ubuntu Regular"), local("Ubuntu-Regular"), url("./assets/fonts/ubuntu/ubuntu-regular/normal/Ubuntu-Regular-Latin-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-regular/normal/Ubuntu-Regular-Latin-Ext.woff") format("woff");
+  unicode-range: u+0100-024f, u+0259, u+1e00-1eff, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Ubuntu Regular"), local("Ubuntu-Regular"), url("./assets/fonts/ubuntu/ubuntu-regular/normal/Ubuntu-Regular-Latin.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-regular/normal/Ubuntu-Regular-Latin.woff") format("woff");
+  unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-style: italic;
+  src: local("Ubuntu Regular"), local("Ubuntu-Regular"), url("./assets/fonts/ubuntu/ubuntu-regular/italic/Ubuntu-Regular-Italic-Cyrillic-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-regular/italic/Ubuntu-Regular-Italic-Cyrillic-Ext.woff") format("woff");
+  unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f, u+fe2e-fe2f;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-style: italic;
+  src: local("Ubuntu Regular"), local("Ubuntu-Regular"), url("./assets/fonts/ubuntu/ubuntu-regular/italic/Ubuntu-Regular-Italic-Cyrillic.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-regular/italic/Ubuntu-Regular-Italic-Cyrillic.woff") format("woff");
+  unicode-range: u+0400-045f, u+0490-0491, u+04b0-04b1, u+2116;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-style: italic;
+  src: local("Ubuntu Regular"), local("Ubuntu-Regular"), url("./assets/fonts/ubuntu/ubuntu-regular/italic/Ubuntu-Regular-Italic-Latin-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-regular/italic/Ubuntu-Regular-Italic-Latin-Ext.woff") format("woff");
+  unicode-range: u+0100-024f, u+0259, u+1e00-1eff, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-style: italic;
+  src: local("Ubuntu Regular"), local("Ubuntu-Regular"), url("./assets/fonts/ubuntu/ubuntu-regular/italic/Ubuntu-Regular-Italic-Latin.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-regular/italic/Ubuntu-Regular-Italic-Latin.woff") format("woff");
+  unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url("./assets/fonts/ubuntu/ubuntu-medium/normal/Ubuntu-Medium-Cyrillic-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-medium/normal/Ubuntu-Medium-Cyrillic-Ext.woff") format("woff");
+  unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f, u+fe2e-fe2f;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url("./assets/fonts/ubuntu/ubuntu-medium/normal/Ubuntu-Medium-Cyrillic.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-medium/normal/Ubuntu-Medium-Cyrillic.woff") format("woff");
+  unicode-range: u+0400-045f, u+0490-0491, u+04b0-04b1, u+2116;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url("./assets/fonts/ubuntu/ubuntu-medium/normal/Ubuntu-Medium-Latin-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-medium/normal/Ubuntu-Medium-Latin-Ext.woff") format("woff");
+  unicode-range: u+0100-024f, u+0259, u+1e00-1eff, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url("./assets/fonts/ubuntu/ubuntu-medium/normal/Ubuntu-Medium-Latin.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-medium/normal/Ubuntu-Medium-Latin.woff") format("woff");
+  unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-style: italic;
+  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url("./assets/fonts/ubuntu/ubuntu-medium/italic/Ubuntu-Medium-Italic-Cyrillic-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-medium/italic/Ubuntu-Medium-Italic-Cyrillic-Ext.woff") format("woff");
+  unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f, u+fe2e-fe2f;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-style: italic;
+  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url("./assets/fonts/ubuntu/ubuntu-medium/italic/Ubuntu-Medium-Italic-Cyrillic.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-medium/italic/Ubuntu-Medium-Italic-Cyrillic.woff") format("woff");
+  unicode-range: u+0400-045f, u+0490-0491, u+04b0-04b1, u+2116;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-style: italic;
+  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url("./assets/fonts/ubuntu/ubuntu-medium/italic/Ubuntu-Medium-Italic-Latin-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-medium/italic/Ubuntu-Medium-Italic-Latin-Ext.woff") format("woff");
+  unicode-range: u+0100-024f, u+0259, u+1e00-1eff, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-style: italic;
+  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url("./assets/fonts/ubuntu/ubuntu-medium/italic/Ubuntu-Medium-Italic-Latin.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-medium/italic/Ubuntu-Medium-Italic-Latin.woff") format("woff");
+  unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("./assets/fonts/ubuntu/ubuntu-bold/normal/Ubuntu-Bold-Cyrillic-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-bold/normal/Ubuntu-Bold-Cyrillic-Ext.woff") format("woff");
+  unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f, u+fe2e-fe2f;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("./assets/fonts/ubuntu/ubuntu-bold/normal/Ubuntu-Bold-Cyrillic.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-bold/normal/Ubuntu-Bold-Cyrillic.woff") format("woff");
+  unicode-range: u+0400-045f, u+0490-0491, u+04b0-04b1, u+2116;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("./assets/fonts/ubuntu/ubuntu-bold/normal/Ubuntu-Bold-Latin-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-bold/normal/Ubuntu-Bold-Latin-Ext.woff") format("woff");
+  unicode-range: u+0100-024f, u+0259, u+1e00-1eff, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("./assets/fonts/ubuntu/ubuntu-bold/normal/Ubuntu-Bold-Latin.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-bold/normal/Ubuntu-Bold-Latin.woff") format("woff");
+  unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-style: italic;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("./assets/fonts/ubuntu/ubuntu-bold/italic/Ubuntu-Bold-Italic-Cyrillic-Ext.woff") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-bold/italic/Ubuntu-Bold-Italic-Cyrillic-Ext.woff") format("woff");
+  unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f, u+fe2e-fe2f;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-style: italic;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("./assets/fonts/ubuntu/ubuntu-bold/italic/Ubuntu-Bold-Italic-Cyrillic.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-bold/italic/Ubuntu-Bold-Italic-Cyrillic.woff2") format("woff");
+  unicode-range: u+0400-045f, u+0490-0491, u+04b0-04b1, u+2116;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-style: italic;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("./assets/fonts/ubuntu/ubuntu-bold/italic/Ubuntu-Bold-Italic-Latin-Ext.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-bold/italic/Ubuntu-Bold-Italic-Latin-Ext.woff") format("woff");
+  unicode-range: u+0100-024f, u+0259, u+1e00-1eff, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-style: italic;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("./assets/fonts/ubuntu/ubuntu-bold/italic/Ubuntu-Bold-Italic-Latin.woff2") format("woff2"), url("./assets/fonts/ubuntu/ubuntu-bold/italic/Ubuntu-Bold-Italic-Latin.woff") format("woff");
+  unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+
+/*# sourceMappingURL=fonts.css.map */

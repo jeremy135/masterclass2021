@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Form</title>
+  <link rel="stylesheet" href="./fonts.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <script type="text/javascript" src="./script.js"></script>
+</head>
+
+<body class="body">
+  <form class="form">
+    <h2 class="form__header-text">Форма оформления заказа</h2>
+    <section class="form__line">
+      <div class="form__field">
+        <label for="firstname">Имя</label>
+        <input type="text" name="firstname" id="firstname" />
+      </div>
+      <div class="form__field">
+        <label for="lastname">Фамилия</label>
+        <input type="text" name="lastname" id="lastname" />
+      </div>
+    </section>
+    <section class="form__line">
+      <div class="form__field">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" />
+      </div>
+      <div class="form__field">
+        <label for="phone">Телефон</label>
+        <input type="text" name="phone" id="phone" />
+      </div>
+    </section>
+    <section>
+      <div class="form__field">
+        <label for="web-site">Веб-сайт</label>
+        <input type="text" name="web-site" id="web-site" />
+      </div>
+    </section>
+    <section>
+      <div class="form__field">
+        <label for="requires">Ваши требования к решению</label>
+        <textarea name="requires" id="requires"></textarea>
+      </div>
+    </section>
+    <section>
+      <div class="form__field">
+        <input type="checkbox" name="mailsubs" id="mailsubs"></textarea>
+        <label for="mailsubs">Хочу получать письма</label>
+      </div>
+    </section>
+    <section>
+      <div class="form__field">
+        <input type="checkbox" name="privacy" id="privacy"></textarea>
+        <label for="privacy">Согласен в политикой конфиденциальности</label>
+      </div>
+    </section>
+    <button type="submit">Отправить</button>
+  </form>
+</body>
+
+</html>
